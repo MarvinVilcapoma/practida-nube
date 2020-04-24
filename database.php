@@ -8,5 +8,8 @@ $conn = mysqli_connect(
   'practica_nubes'
 ) or die(mysqli_erro($mysqli));
 
+
+
+
 ?>
 

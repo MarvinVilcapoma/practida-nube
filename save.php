@@ -14,7 +14,7 @@ if (isset($_POST['save_articulo'])) {
 
   $_SESSION['message'] = 'Articulo guardado correctamente';
   $_SESSION['message_type'] = 'success';
-  header('Location: index.php');
+  header('Location: main.php');
 
 }
 

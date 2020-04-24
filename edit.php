@@ -26,7 +26,7 @@ if (isset($_POST['update'])) {
   mysqli_query($conn, $query);
   $_SESSION['message'] = 'Articulo Actualizado';
   $_SESSION['message_type'] = 'warning';
-  header('Location: index.php');
+  header('Location: main.php');
 }
 
 ?>
